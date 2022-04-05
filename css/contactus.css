@@ -36,4 +36,6 @@ input::placeholder {
 .button-form { 
     margin-top: 25px;
 }
-
+.footer {
+    margin-top: 60px;
+}

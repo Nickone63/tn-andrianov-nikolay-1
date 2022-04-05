@@ -92,7 +92,7 @@ img {
 .footer {
     background: #434343;
     background-size: 100%;
-    margin: 150px auto;
+    margin-top: 150px;
 }
 .footer-columns {
     display: flex;
@@ -248,12 +248,6 @@ img {
     text-decoration: none;
     padding-right: 20px;
 }
-.vector {
-    background: url(../images/svg/Vectorstroke.svg) no-repeat;
-    width: 8px;
-    height: 12px;
-    padding-right: 20px;
-}
 .text-breadcrumbs {
     font-family: 'Crimson Text';
     font-style: italic;
@@ -263,6 +257,61 @@ img {
     text-transform: capitalize;
     color: #1E0606;
     opacity: 0.5;
+}
+.vector {
+    background: url(../images/svg/Vectorstroke.svg) no-repeat;
+    width: 8px;
+    height: 12px;
+    padding-right: 20px;
+}
+.vector-left {
+    position: absolute;
+    background: url(../images/svg/vector-L.svg) no-repeat;
+    Width: 17px;
+    Height: 32px;
+}
+.vector-right {
+    position: absolute;
+    background: url(../images/svg/vector-L.svg) no-repeat;
+    Width: 17px;
+    Height: 32px;
+    left: 99%;
+    top: 0%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.pagination {
+    display: flex;
+    position: relative;
+    
+}
+.pagination-wrapper {
+    width: 234px;
+    margin: 0 auto;
+    position: absolute;
+    left: 33%;
+    top: 0;
+}
+.pagination-list {
+    display: flex;
+    flex-direction: row;
+}
+.pagination-link {
+    padding-right: 79px;
+}
+.pagination-1-link a {
+    color: #C29974;
+}
+.pagination-other a {
+    color: #1E0606;
+}
+.pagination-link a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
 }
 .contactus-form {
     max-width: 680px;

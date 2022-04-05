@@ -6,8 +6,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">   
     <title>Blog</title>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,400;1,700&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,400;1,700&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/blog.css">
@@ -81,14 +82,16 @@
                     <p class="text-blog1">Direct Line Development’s Team is excited to<br>announce that we received UpCity’s 2019<br>Local Excellence Award! This prestigious<br>award is annually presented to the Top 1% of<br>service providers in the given marketplace.</p>
                 </li>
             </ul>
-            <div>
+            <div class="pagination">
                 <div class="vector-left"></div>
-                <ul class="dot next-page">
-                <li class="next-page1"><a href="#">1</a></li>
-                <li class="next-page2"><a href="#">2</a></li>
-                <li class="next-page3"><a href="#">3</a></li>
-                <li class="next-page4"><a href="#">4</a></li>
+                <div class="pagination-wrapper">
+                <ul class="dot pagination-list">
+                <li class="pagination-link pagination-1-link"><a href="#">1</a></li>
+                <li class="pagination-link pagination-other"><a href="#">2</a></li>
+                <li class="pagination-link pagination-other"><a href="#">3</a></li>
+                <li class="pagination-link pagination-other"><a href="#">4</a></li>
                 </ul>
+                </div>
                 <div class="vector-right"></div>
             </div>
         </section>
@@ -124,7 +127,7 @@
             <p class="footer-text footer-border">Connect</p>
             <div class="footer-form">
                 <input type="text" class="input-footer" placeholder="Email">
-                <button type="submit" class="button">join</button>
+                <button type="submit" class="button footer-button">join</button>
             </div>
             
             <ul class="dot footer-social-network">
@@ -158,13 +161,13 @@
         <div class="rating-area">
             <input id="rating-area5" type="radio" class="rating-area-star" name="rating-area" value="5">
             <label for="rating-area5" class="rating-area-label"></label>	
-            <input type="radio" class="rating-area-star" name="rating-area" value="4">
+            <input id="rating-area4" type="radio" class="rating-area-star" name="rating-area" value="4">
             <label for="rating-area4" class="rating-area-label"></label>	  
-            <input type="radio" class="rating-area-star" name="rating-area" value="3">
+            <input id="rating-area3" type="radio" class="rating-area-star" name="rating-area" value="3">
             <label for="rating-area3" class="rating-area-label"></label>	
-            <input type="radio" class="rating-area-star" name="rating-area" value="2">
+            <input id="rating-area2" type="radio" class="rating-area-star" name="rating-area" value="2">
             <label for="rating-area2" class="rating-area-label"></label>	   
-            <input type="radio" class="rating-area-star" name="rating-area" value="1">
+            <input id="rating-area1" type="radio" class="rating-area-star" name="rating-area" value="1">
             <label for="rating-area1" class="rating-area-label"></label>
         </div>
         </div>
