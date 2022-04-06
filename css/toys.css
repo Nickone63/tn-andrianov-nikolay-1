@@ -1,6 +1,5 @@
 .tittle-toys {
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 49px;
@@ -23,7 +22,6 @@
 }
 .form-column {
     display: flex;
-    flex-direction: row;
     align-content: flex-start;
 }
 .slider {

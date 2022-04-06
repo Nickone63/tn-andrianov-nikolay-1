@@ -1,9 +1,4 @@
-* {
-    box-sizing: border-box;
-}
-.main {
-    position: relative;
-}
+
 .banner {
     background: #EEE4DB;
     margin-top: 129px;
@@ -16,7 +11,6 @@
 
 .banner-tittle {
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 110%;
@@ -80,7 +74,6 @@
 }
 .container-delivery img {
     width: 480px;
-    height: 559px;
 }
 .container-delivery a {
     text-decoration: none;
@@ -95,13 +88,13 @@
 }
 .delivery-h1 {
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 38px;
     line-height: 46px;
     text-transform: uppercase;
 }
-.delivery-h2 {
+.delivery-h2,
+.delivery-h3 {
     font-family: 'Crimson Text';
     font-style: italic;
     font-weight: 700;
@@ -109,11 +102,7 @@
     line-height: 32px;
 }
 .delivery-h3 {
-    font-family: 'Crimson Text';
-    font-style: italic;
     font-weight: 400;
-    font-size: 26px;
-    line-height: 32px;
     margin-top: 22px;
     margin-bottom: 22px;
 }
@@ -123,9 +112,6 @@
 .delivery-list a {
     text-decoration: none;
     color: #1E0606;
-}
-.delivery-list li:nth-child(1) {
-    color: royalblue;
 }
 .delivery-text {
     width: 480px;
@@ -164,7 +150,6 @@
 }
 .article-tittle {
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 38px;
     line-height: 46px;
@@ -218,8 +203,8 @@
     left: 42px;
     bottom: 1px;
 }
-.vector-left,
-.vector-right  {
+.vector-l,
+.vector-r  {
     position: absolute;
     width: 35px;
     height: 75px;
@@ -228,7 +213,7 @@
     bottom: -41px;
     cursor: pointer;
 }
-.vector-right {
+.vector-r {
     background: url(../images/svg/vectorR.svg) no-repeat;
     left: 52px;
 }                    

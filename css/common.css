@@ -135,7 +135,6 @@ img {
 }
 .footer-form {
     display: flex;
-    flex-direction: row;
     align-items: center;
     padding-top: 25px;
 }
@@ -213,7 +212,6 @@ img {
     justify-content: center;
     align-items: center;
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 32px;
@@ -264,20 +262,19 @@ img {
     height: 12px;
     padding-right: 20px;
 }
-.vector-left {
-    position: absolute;
+.vector-left  {
     background: url(../images/svg/vector-L.svg) no-repeat;
     Width: 17px;
     Height: 32px;
+    cursor: pointer;
 }
 .vector-right {
-    position: absolute;
     background: url(../images/svg/vector-L.svg) no-repeat;
     Width: 17px;
     Height: 32px;
-    left: 99%;
-    top: 0%;
+    margin-left: 97%;
     transform: matrix(-1, 0, 0, 1, 0, 0);
+    cursor: pointer;
 }
 .pagination {
     display: flex;
@@ -293,10 +290,10 @@ img {
 }
 .pagination-list {
     display: flex;
-    flex-direction: row;
+    margin-left: 27px;
 }
 .pagination-link {
-    padding-right: 79px;
+    padding-right: 74px;
 }
 .pagination-1-link a {
     color: #C29974;
@@ -307,7 +304,6 @@ img {
 .pagination-link a {
     text-decoration: none;
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;

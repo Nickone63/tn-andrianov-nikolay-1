@@ -1,6 +1,5 @@
 .tittle-blog {
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 49px;
@@ -23,7 +22,6 @@
 }
 .blog a {
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 31px;
